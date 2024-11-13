@@ -1,0 +1,20 @@
+
+.toggle-button{
+    padding: 10px 20px;
+    border-color: rebeccapurple;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.toggle-button.on{
+    background-color: #4CAF50;
+    min-height: 100vh;
+    min-width: 200vh;
+    color:gold;
+}
+.toggle-button.off{
+    background: #282c34;
+    min-height: 100vh;
+    min-width: 200vh;
+    color: rebeccapurple;
+}
